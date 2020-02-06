@@ -1,0 +1,125 @@
+*{
+	margin: 0; padding: 0;
+}
+
+.module__thoitrang{
+	width: 875px;
+	margin: auto;
+}
+
+.tren {
+	width: 875px;
+	height: 40px;
+	border-bottom: 1px dashed brown;
+	position: relative;
+	background-image: url(bg_arrow_title_320.gif);
+	background-repeat: no-repeat;
+	background-position: right 12px;
+	padding-top: 6px;
+}
+
+.tren .tieude {
+	display: inline;
+	background-image: url(bg_arrow_tim.png);
+	background-repeat: no-repeat;
+	background-position: left 3px;
+	text-decoration: none;
+	font-family: arial,san-serif;
+	font-size: 24px;
+	font-weight: bold;
+	padding-left: 20px;
+}
+
+.tren ul {
+	list-style-type: none;
+	display: inline;
+}
+
+.tren .item {
+	display: inline;
+	padding: 5px 8px;
+}
+
+.item a {
+	text-decoration: none;
+}
+
+.trai {
+	width: 280px;
+	height: 420px;
+	margin-top: 10px;
+	float: left;
+	position: relative;
+}
+
+.trai .trai-anh img{
+	width: 280px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.trai .trai-tieude {
+	width: 280px;
+	height: 60px;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	background-color: rgba(0,0,0,0.5);
+}
+
+.trai .trai-tieude a {
+	text-decoration: none;
+	color: #00cccc;
+	display: block;
+	padding: 8px 4px;
+	font-weight: bold;
+}
+
+.trai .trai-tieude:hover a {
+	color: #f0008d;
+}
+
+.phai {
+	width: 595px;
+	height: 420px;
+	display: block;
+	margin-top: 10px;
+	margin-left: 280px;
+	background-color: #F1E3EB;
+}
+
+.phai ._1tin {
+	width: 560px;
+	height: 110px;
+	padding-top: 15px;
+	margin-left: 15px;
+	border-bottom: 1px dashed #ccc;
+	padding-bottom: 10px;
+}
+
+._1tin ._1tin-anh {
+	float: left;
+	margin-right: 10px;
+}
+
+._1tin ._1tin-anh img{
+	width: 182px;
+	height: 110px;
+}
+
+._1tin ._1tin-tieude a{
+	text-decoration: none;
+	color: #00cccc;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+._1tin ._1tin-tieude a:hover{
+	color: #f0008d;
+}
+
+._1tin ._1tin-thongtin {
+	margin-top: 10px;
+	color: #333;
+}
