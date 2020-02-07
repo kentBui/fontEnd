@@ -1,0 +1,85 @@
+*{
+	margin: 0; padding: 0;
+	font-family: arial, 'Roboto', sans-serif;
+}
+
+.sao360 {
+	width: 685px;
+	height: 490px;
+}
+
+.tdto {
+	text-decoration: none;
+	font-size: 18px;
+	font-weight: bold;
+	color: #00bbf3;
+	border-left: 5px solid #00bbf3;
+	padding-left: 10px;
+}
+
+.duoi {
+	width: 690px;
+	height: 450px;
+	margin-top: 10px;
+}
+.trai {
+	width: 340px;
+	height: 450px;
+	display: block;
+	background-color: #f6f6f6;
+	float: left;
+}
+
+.trai img {
+	width: 340px;
+}
+
+.trai .tdtrai {
+	font-weight: bold;
+	text-decoration: none;
+	color: #004f8b;
+	font-size: 18px;
+	display: block;
+	padding-top: 8px;
+	padding-left: 15px;
+}
+
+.trai .tdtrai:hover {
+	color: #00bbf3;
+}
+
+.trai .tin {
+	color:  #004f8b;
+	font-size: 13px;
+	display: block;
+	padding-left: 15px;
+	padding-top: 10px;
+}
+
+.phai {
+	width: 350px;
+	height: 450px;
+	display: block;
+	float: right;
+}
+
+._1tin {
+	width: 165px;
+	height: 210px;
+	margin: 0 5px 5px 5px;
+	float: left;
+}
+
+._1tin img {
+	width: 165px;
+}
+
+._1tin .td1tin {
+	text-decoration: none;
+	font-size: 13px;
+	color: #004f8b;
+}
+
+._1tin .td1tin:hover {
+	color: #00bbf3;
+}
