@@ -1,0 +1,163 @@
+* {
+	margin: 0; padding: 0;
+	font-family: 'Noto Sans', sans-serif;
+}
+
+.tintonghop {
+	width: 660px;
+	margin: auto;
+}
+
+.tintrai {
+	width: 440px;
+	height: 825px;
+	margin-right: 20px;
+	float: left;
+}
+
+.tren {
+	width: 440px;
+	height: 415px;
+	display: block;
+}
+
+.tren a img {
+	width: 440px;
+}
+
+.tren .tdtren {
+	text-decoration: none;
+	font-weight: 700;
+	font-size: 22px;
+	color: #333;
+	display: block;
+	padding-top: 5px;
+}
+
+.tren p {
+	display: block;
+	color: #333;
+	margin-top: 5px;
+}
+
+.duoi {
+	width: 440px;
+	height: 410px;
+	display: block;
+}
+
+.duoi ._1tin {
+	width: 140px;
+	height: 175px;
+	display: block;
+	margin: 10px 10px 5px 0;
+	float: left;
+	overflow: hidden;
+}
+
+.duoi ._1tin.m-r-0 {
+	margin-right: 0;
+}
+
+.duoi ._1tin a img {
+	width: 140px;
+}
+
+.duoi ._1tin .tdnho {
+	text-decoration: none;
+	color: #333;
+	font-size: 14px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.duoi ._1tin a:hover {
+	color: #E0797C;
+}
+
+.them {
+	font-size: 0;
+	background-image: url(./images/full-icon-common.png);
+	background-position: 89px 0px;
+	width: 11px;
+	height: 11px;
+	display: inline-block;
+	vertical-align: middle;
+	transition: 0.4s;
+}
+
+a:hover .them {
+	background-position: 100px 0px;
+	opacity: 0.8;
+}
+
+.tinphai {
+	width: 200px;
+	height: 825px;
+	float: right;
+}
+
+.tinphai a img {
+	width: 200px;
+	height: 40px;
+}
+
+.tinphai .tinnho {
+	width: 200px;
+	height: 65px;
+	display: block;
+	margin-top: 5px;
+}
+
+.tinphai .tinnho .img-nho {
+	float: left;
+	margin-right: 5px;
+	padding-top: 3px;
+}
+
+.tinphai .tinnho a img {
+	width: 60px;
+}
+
+.tinphai .tinnho .tdtin {
+	text-decoration: none;
+	color: #333;
+	font-size: 14px;
+}
+
+
+.tinphai .tinnho .tdtin:hover {
+	color: #E0797C;
+}
+
+.tinphai .dstin {
+	height: 710px;
+	display: block;
+	margin-top: 5px;
+	overflow: scroll;
+}
+
+.tinphai .dstin ul {
+	list-style-type: none;
+
+}
+
+.tinphai .dstin ul .item {
+	display: inline-block;
+	padding: 10px 0 5px 0;
+	border-bottom: 1px solid #aaa;
+}
+
+.tinphai .dstin ul .item a {
+	text-decoration: none;
+	color: #333;
+	font-size: 14px;
+}
+
+.tinphai .dstin ul .item a:hover {
+	color: #E0797C;
+}
+
+.tinphai .dstin ul .item:last-child {
+	border: 0;
+}
